@@ -1,0 +1,71 @@
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.panel-default {
+    border-color: #49022D;
+}
+
+.navbar-inverse {
+    background-color: #49022D;
+    border-color: #080808;
+}
+
+hr
+{
+  border-top: 1px solid #000;
+}
+
+.gallery
+{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  padding: 2rem .5rem;
+}
+
+.card
+{
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+  justify-content: center;
+  padding: 2rem .5rem;
+  margin: 2rem .5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
+}
+
+.card-image
+{
+  vertical-align: center;
+  padding-left: 30px;
+  margin-right: 5px;
+  justify-content: center;
+}
+
+.card-text
+{
+  justify-content: center;
+}
+
+.card-writer
+{
+  justify-content: right;
+}
+
+@media screen and (min-width: 550px) {  /*-- for screens above 550px  --*/
+  .card {width: 50%;} /*-- sets card width to half of the page --*/
+}
+@media screen and (min-width: 1024px) { /*-- for screens above 1024px  --*/
+  .card {width: 33.33333%;} /*-- sets card width to one-third of the page --*/
+}
+@media screen and (min-width: 1280px) { /*-- for screens above 1280px  --*/
+  .card {width: 25%;} /*-- sets card width to one-quarter of the page --*/
+}

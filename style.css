@@ -14,7 +14,11 @@
     background-color: #49022D;
     border-color: #080808;
 }
-
+.panel-con
+{
+  background-color: #fff;
+  border-radius: 4px;
+}
 hr
 {
   border-top: 1px solid #000;
@@ -68,4 +72,20 @@ hr
 }
 @media screen and (min-width: 1280px) { /*-- for screens above 1280px  --*/
   .card {width: 25%;} /*-- sets card width to one-quarter of the page --*/
+}
+
+.btn-chkout
+{
+  background-color: #49022D;
+  border-color: #000;
+}
+
+.breadcrumb
+{
+  background-color: #fff;
+}
+
+hr
+{
+  color: #fff;
 }

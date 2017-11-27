@@ -84,9 +84,16 @@ hr
 .btn-chkout:hover
 {
   background-color: #770349;
+  color: #fff;
 }
 
 .btn-chkout:active
+{
+  background-color: #770349;
+  color: #fff;
+}
+
+.btn-chkout:focus
 {
   background-color: #770349;
   color: #fff;
@@ -109,14 +116,37 @@ hr
   color: #fff;
   margin: 0 0 10px;
 }
+.btn-addcart:hover
+{
+  background-color: #770349;
+  color: #fff;
+}
+
+.btn-addcart:active
+{
+  background-color: #770349;
+  color: #fff;
+}
+
+.btn-addcart:focus
+{
+  background-color: #770349;
+  color: #fff;
+}
 
 .logo
 {
-  width: 30%;
-  height: 30%;
+  width: 120px;
+  height: 40px;
 }
 
-
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 5px 5px;
+  font-size: 18px;
+  line-height: 20px;
+}
 
 .steps {
     margin-top: -41px;
@@ -422,23 +452,10 @@ hr{
 
 }
 
-.stylish-input-group .input-group-addon{
-    background: white !important;
-    margin-bottom: 20px;
-}
-.stylish-input-group .form-control{
-    border-right:0;
-	box-shadow:0 0 0;
-	border-color:#ccc;
-  margin-bottom: 20px;
-}
-.stylish-input-group button{
-    border:0;
-    background:transparent;
-    margin-bottom: 20px;
-}
-.input-group-addon
+.carl
 {
+  align-content: center;
+  float: right;
   margin-bottom: 20px;
 }
 
@@ -448,4 +465,20 @@ hr{
   border-color: #000;
   color: #fff;
   margin: 20px 10px 10px 10px;
+}
+.btn-addcart2:hover
+{
+  background-color: #770349;
+  color: #fff;
+}
+.btn-addcart2:active
+{
+  background-color: #770349;
+  color: #fff;
+}
+
+.btn-addcart2:success
+{
+  background-color: #770349;
+  color: #fff;
 }
